@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif; /* Optional: Set a font-family */
+    font-family: Arial, sans-serif; 
 }
 
 header {
@@ -24,7 +24,7 @@ main {
 }
 
 section {
-    width: 30%; /* Adjust width based on requirements */
+    width: 30%;
     margin-bottom: 20px;
     border: 1px solid #000;
     position: relative;
@@ -34,8 +34,8 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #ffcc00; /* Unique color for section title */
-    color: #333; /* Adjust text color based on background */
+    background-color: #ffcc00; 
+    color: #333; 
     padding: 5px 10px;
     border-bottom: 1px solid #000;
 }
@@ -47,15 +47,15 @@ section {
 /* Media queries for responsiveness */
 @media only screen and (max-width: 991px) {
     section {
-        width: 48%; /* Adjust width for tablet view */
+        width: 48%; 
     }
     #section3 {
-        width: 100%; /* Full width for third section in tablet view */
+        width: 100%; 
     }
 }
 
 @media only screen and (max-width: 767px) {
     section {
-        width: 100%; /* Full width for mobile view */
+        width: 100%;
     }
 }
